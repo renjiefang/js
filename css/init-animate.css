@@ -1,0 +1,270 @@
+.screen-1__header{
+    transition: all 1s;
+}
+.screen-1__header_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-1__header_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+.screen-1__phone{
+    transition: all 1s;
+}
+.screen-1__phone_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-1__phone_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+.screen-1__shadow{
+    transition: all 1s;
+}
+.screen-1__shadow_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-1__shadow_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+/*第二屏*/
+.screen-2__header{
+    transition: all 1s;
+}
+.screen-2__header_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-2__header_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-2__subheader{
+    transition: all 1s;
+}
+.screen-2__subheader_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-2__subheader_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-2__phone{
+    transition: all 1s;
+}
+.screen-2__phone_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-2__phone_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-2__point{
+    transition: all .5s .5s;
+}
+.screen-2__point_i_1_animate_init{
+    opacity: 0;
+    transform:translate(-100px,0px);
+}
+.screen-2__point_i_2_animate_init{
+    opacity: 0;
+    transform:translate(100px,0px);
+}
+.screen-2__point_i_3_animate_init{
+    opacity: 0;
+    transform:translate(100px,0px);
+}
+.screen-2__point_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+/*第三屏动画*/
+.screen-3__header{
+    transition: all 1s;
+}
+.screen-3__header_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-3__header_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-3__subheader{
+    transition: all 1s;
+}
+.screen-3__subheader_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-3__subheader_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-3__phone{
+    transition: all 1s;
+}
+.screen-3__phone_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-3__phone_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+.screen-3__features{
+    transition:all 1s;
+}
+.screen-3__features_animate_init{
+    opacity:0;
+    transform:scale(.5);
+}
+.screen-3__features_animate_done{
+    transform:scale(1);
+}
+.screen-3__features__items{
+    transition: all .5s;
+}
+.screen-3__features__items:hover{
+    transform:scale(1.2);
+    border-color: white;
+}
+/*第四屏*/
+.screen-4__header{
+    transition: all 1s;
+}
+.screen-4__header_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-4__header_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-4__subheader{
+    transition: all 1s;
+}
+.screen-4__subheader_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-4__subheader_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+.screen-4__type__item_i_1{
+    transition:all 1s 0.2s;
+
+}
+.screen-4__type__item_i_2{
+    transition:all 1s 0.4s;
+
+}
+.screen-4__type__item_i_3{
+    transition:all 1s 0.6s;
+
+}
+.screen-4__type__item_i_4{
+    transition:all 1s 0.8s;
+
+}
+.screen-4__type__item_i_1_animate_init,
+.screen-4__type__item_i_2_animate_init,
+.screen-4__type__item_i_3_animate_init,
+.screen-4__type__item_i_4_animate_init{
+     opacity: 0;
+
+}
+
+.screen-4__type__item_i_1_animate_done,
+.screen-4__type__item_i_2_animate_done,
+.screen-4__type__item_i_3_animate_done,
+.screen-4__type__item_i_4_animate_done{
+    opacity: 1;
+
+}
+/*第五屏*/
+.screen-5__header{
+    transition: all 1s;
+}
+.screen-5__header_animate_init{
+    opacity: 0;
+    transform:translate(0,50px);
+}
+.screen-5__header_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-5__subheader{
+    transition: all 1s;
+}
+.screen-5__subheader_animate_init{
+    opacity: 0;
+    transform:translate(0,-50px);
+}
+.screen-5__subheader_animate_done{
+    opacity: 1;
+    transform:translate(0,0);
+}
+
+.screen-5__bg{
+    transition: all 1s;
+}
+.screen-5__bg_animate_init{
+
+    transform:translate(0,-50px);
+}
+.screen-5__bg_animate_done{
+    transform:translate(0,0);
+}
+/*定义桢动画*/
+@keyframes bounce{
+    0%,100%{
+        transform:scale(0);}
+
+    50%{
+        transform:scale(1);
+    }
+}
+.screen-2__point::before,
+.screen-2__point::after{
+    content: " ";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:1px;
+    left: 79px;
+    background-color: rgba(255,0,0,.4);
+    animation:bounce .8s infinite;
+    border-radius: 50%;
+}
+
+.screen-2__point::before{
+    animation:bounce .8s infinite 1s;
+}
+.screen-2__point_i_1::before,
+.screen-2__point_i_1::after{
+    left: 151px;
+}
+.outline{
+    transition:all 1s;
+
+}
+
+.outline_status_in{
+    opacity: 1;
+    transform:translate(0,0);
+}

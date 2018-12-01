@@ -1,0 +1,158 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>慕课手机</title>
+  <link rel="stylesheet"  href="./css/base.css">
+  <link rel="stylesheet"  href="./css/index.css">
+    <link rel="stylesheet"  href="./css/init-animate.css">
+    <!--<link rel="stylesheet" href="css/Animate/animate.min.css">-->
+    <script  src="jquery-1.11.3.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            //需求：页面滑动顶部被卷曲的部分超过第一个盒子的高，给第二个盒子添加固定定位，给第三个盒子加上margin;否则取消
+            $(window).scroll(function () {
+                //判断：
+                if ($(window).scrollTop() > $(".header").height()) {
+                    //第二个盒子加定位，第三个盒子加上margin；
+                    $(".header").css({position: "fixed", top: 0, left: 0, "background-color": "rgba(0,0,0,.5)"});
+                    $(".outline").addClass("outline_status_in").css({ "opacity": 1,
+                    "transform":"translate(0,0)"});
+
+                }
+                // } else {
+                //     //否则归零
+                //     $(".header").css({position: "static"});
+                //     // $(".header").css({"margin-top": 0});
+                // }
+            });
+            });
+    </script>
+
+</head>
+
+<body>
+
+    <header class="header">
+      <div class="header__wrap">
+      <div class="header__logo">慕课手机</div>
+      </div>
+      <nav class="header__nav">
+        <a href="javascript:;" class="header__nav-item ">首页</a>
+        <a href="javascript:;" class="header__nav-item">型号</a>
+        <a href="javascript:;" class="header__nav-item">说明</a>
+        <a href="javascript:;" class="header__nav-item">其他产品</a>
+        <a href="javascript:;" class="header__nav-item header__nav-item_custom_button">立即购买</a>
+
+          <div class="header__nav-tip"></div>
+      </nav>
+
+    </header>
+     <div class="screen-1">
+
+       <h2 class="screen-1__header"><span>慕课手机 </span>让你的生活更精彩</h2>
+        <div class="screen-1__phone"></div>
+       <div class="screen-1__shadow"></div>
+     </div>
+
+    <div class="screen-2">
+
+      <h2 class="screen-2__header">优美的设计，更令人着迷</h2>
+      <h4  class="screen-2__subheader screen-2__subheader">采用受欢迎的设计，让它更加出色。<br>
+        款式小巧、轻便手感更舒适。绚丽高清的显示屏，整个外观显得格外精致。</h4>
+      <div class="screen-2__phone">
+
+
+      <div class="screen-2__point screen-2__point_i_1 ">高清摄像</div>
+      <div class="screen-2__point screen-2__point_right screen-2__point_i_2">超薄机身</div>
+      <div class="screen-2__point screen-2__point_right screen-2__point_i_3">大屏显示</div>
+      </div>
+    </div>
+
+    <div class="screen-3">
+       <div class="screen-3__wrap">
+           <h2 class="screen-3__header">外形小巧，功能强大的手机</h2>
+           <h4  class="screen-3__subheader ">采用受欢迎的设计，让它更加出色。<br>
+           款式小巧、轻便手感更舒适。绚丽高清的显示屏，整个外观显得格外精致。</h4>
+           <div class="screen-3__phone"></div>
+
+           <div class="screen-3__features">
+                <div class="screen-3__features__items">
+                    <div class="screen-3__features__items__number">
+                        <div class="screen-3__features__items__number animated swing">5.8</div>
+                        <div class="screen-3__features__items__desc">英寸大屏</div>
+                    </div>
+                </div>
+                <div class="screen-3__features__items">
+                    <div class="screen-3__features__items__number">
+                        <div class="screen-3__features__items__number  animated swing">1200</div>
+                        <div class="screen-3__features__items__desc">万像素</div>
+                    </div>
+                </div>
+                <div class="screen-3__features__items">
+                    <div class="screen-3__features__items__number">
+                        <div class="screen-3__features__items__number  animated swing">3D</div>
+                        <div class="screen-3__features__items__desc">Touch</div>
+                    </div>
+                </div>
+                <div class="screen-3__features__items">
+                    <div class="screen-3__features__items__number">
+                        <div class="screen-3__features__items__number  animated swing">A9</div>
+                        <div class="screen-3__features__items__desc">处理器</div>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+    </div>
+
+<!--第四屏-->
+   <div class="screen-4">
+        <div class="screen-4__wrap">
+            <h2 class="screen-4__header">丰富的手机型号</h2>
+            <h4  class="screen-4__subheader ">找到适合你的手机</h4>
+            <div class="screen-4__type ">
+                <div class="screen-4__type__item  screen-4__type__item_i_1">
+                    <div class="screen-4__type__item__text"> 慕课红</div>
+                    <div class="screen-4__type__item__bb">  16G/32G/64G</div>
+                </div>
+                <div class="screen-4__type__item  screen-4__type__item_i_2">
+                    <div class="screen-4__type__item__text"> 土豪金</div>
+                    <div class="screen-4__type__item__bb">   16G/32G/64G</div>
+                </div>
+                <div class="screen-4__type__item  screen-4__type__item_i_3">
+                    <div class="screen-4__type__item__text"> 太空灰</div>
+                    <div class="screen-4__type__item__bb">   16G/32G/64G</div>
+                </div>
+                <div class="screen-4__type__item  screen-4__type__item_i_4">
+                    <div class="screen-4__type__item__text">绅士黑</div>
+                    <div class="screen-4__type__item__bb">  16G/32G/64G</div>
+                </div>
+            </div>
+
+        </div>
+   </div>
+       <div class="screen-5">
+           <div class="screen-5__header">游戏、学习、拍照、有这一部就够了</div>
+           <div class="screen-5__subheader">看视频、拍摄高清视频与照片、视频聊天、一机多功能，让您生活更丰富精彩。</div>
+           <div class="screen-5__bg"></div>
+       </div>
+     <div class="screen-6">
+         <div class="screen-6__but"><a href="javascript:;">立即购买</a></div>
+     </div>
+
+  <div class="footer">
+      © 2016 imooc.com 京ICP备13046642号
+  </div>
+
+    <div class="outline">
+        <a href="javascript:;" class="outline__item">首页</a>
+        <a href="javascript:;" class="outline__item">型号</a>
+        <a href="javascript:;" class="outline__item">说明</a>
+        <a href="javascript:;" class="outline__item">其他</a>
+    </div>
+    <!--<script src="js/test.js"></script>-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
